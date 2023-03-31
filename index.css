@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+div#BigPictureContainer{
+display: flex;
+height: 80vh;
+}
+div#rightarrow,
+div#leftarrow{
+flex: 1;
+text-align: center;
+display: flex;
+align-items: center;
+}
+
+div#rightarrow > i,
+div#leftarrow  > i{
+    flex: 1;
+
+}
+
+div#Bigimagine{
+flex: 10;
+overflow: hidden;
+
+}
+div#Bigimagine > img {
+    max-width: 100%;
+   
+}
+div#dolnycointeiner{
+    display: flex;
+    height: 20vh;
+    overflow: hidden;
+}
+img.dolny {
+  margin: 1rem;
+}
